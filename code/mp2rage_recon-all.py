@@ -7,10 +7,10 @@ if __name__ == "__main__":
         description="mp2rage_recon-all: runs modified FreeSurfer recon-all pipeline on MP2RAGE data "
     )
     parser.add_argument(
-        "inv2", type=str, help="path to nifti file containing MP2RAGE INV2 data"
+        "--inv2", type=str, help="path to nifti file containing MP2RAGE INV2 data"
     )
     parser.add_argument(
-        "uni", type=str, help="path to nifti file containing MP2RAGE UNI data"
+        "--uni", type=str, help="path to nifti file containing MP2RAGE UNI data"
     )
     parser.add_argument("--fs_dir", type=str, help="path to output fs dir")
     parser.add_argument(
